@@ -5,13 +5,13 @@ import './app.less'
 
 function App(props) {
   // 可以使用所有的 React Hooks
-  useEffect(() => {})
+  useEffect(() => { })
 
   // 对应 onShow
-  useDidShow(() => {})
+  useDidShow(() => { })
 
   // 对应 onHide
-  useDidHide(() => {})
+  useDidHide(() => { })
 
   return props.children
 }
